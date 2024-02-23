@@ -1,4 +1,5 @@
-import Logob from "@/assets/Logob.png";
+
+import Logob from "@/assets/logob.png";
 
 const Footer = () => {
   return (

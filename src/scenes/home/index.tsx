@@ -1,3 +1,4 @@
+
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { SelectedPage } from "@/shared/types";
 import ActionButton from "@/shared/ActionButton";
@@ -48,7 +49,7 @@ const Home = ({ setSelectedPage }: Props) => {
           </motion.div>
 
           <motion.div
-            className="mt-8 flex items-center justify-center gap-8"
+            className="mt-8 flex items-center justify-center gap-8 mb-12"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
