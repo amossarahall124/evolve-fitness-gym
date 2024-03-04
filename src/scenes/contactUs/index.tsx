@@ -154,7 +154,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
 
               <button
                 type="submit"
-                className="mt-2 rounded-lg bg-secondary-500 hover:bg-gray-100 px-20 py-3 transition duration-500 hover:text-white ml-20"
+                className="mt-2 rounded-lg bg-secondary-500 hover:bg-gray-100 px-20 py-3 transition duration-500 hover:text-white lg:ml-20"
               >
                 SUBMIT
               </button>
@@ -162,7 +162,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           </motion.div>
 
           <motion.div
-            className="relative mt-16 basis-2/5 md:mt-0"
+            className="relative mt-16 basis-2/5 md:mt-0 mr-12 lg:mr-0"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
